@@ -14,6 +14,7 @@ namespace AIIcsoftAPI.Services.JsonData
         }
         public async Task<string> GetJsonDataAsync(string dataType)
         {
+
             string ConStr;
             string query = string.Empty;
             DBConfig db = new DBConfig();
